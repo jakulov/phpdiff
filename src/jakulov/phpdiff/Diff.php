@@ -3,7 +3,7 @@ namespace jakulov\phpdiff;
 
 /*
 
-class.Diff.php
+Diff.php
 
 A class containing a diff implementation
 
@@ -302,6 +302,7 @@ class Diff
         // loop over the lines in the diff
         foreach ($diff as $line) {
 
+            $element = '';
             // extend the HTML with the line
             switch ($line[1]) {
                 case self::UNMODIFIED :
