@@ -1,0 +1,22 @@
+{
+  "name": "jakulov/phpdiff",
+  "description": "PHP diff viewer",
+  "type": "library",
+  "license": "CC0 1.0",
+  "authors": [
+    {
+      "name": "Yakov Akulov",
+      "email": "jakulov@gmail.com"
+    },
+    {
+      "name": "Stephen Morley",
+      "email": "mail@stephenmorley.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "jakulov\\phpdiff\\": "src/jakulov/phpdiff"
+    }
+  },
+  "minimum-stability": "dev"
+}
